@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavascriptDOM</title>
+</head>
+<body>
+    <p>
+        <label for="">name</label>
+        <input type="text" onfocus="FocusBox(this)" onblur="BlurBox(this)">
+    </p>
+    <p>
+        <label for="">Surname</label>
+        <input type="text" onfocus="FocusBox(this)" onblur="BlurBox(this)">
+    </p>
+    <p>Date of Birth</p>
+    <p>
+        <label for="Birthday"></label>
+        <input type="date" id="Birthday" name="Birthday">
+    </p>
+    <p>
+        <label for="">Select your language</label>
+        <select name="" id="menu" onchange="SelectMenu()">
+            <option value="select">--select--</option>
+            <option value="C">C</option>
+            <option value="Java">Java</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+        </select>
+    </p>
+    <p>
+        <button onclick="disPlayText()">submit</button>
+    </p>
+
+    <script src="main.js"></script>
+</body>
+</html>
